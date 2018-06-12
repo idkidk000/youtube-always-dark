@@ -7,7 +7,7 @@
 // @include        http*://www.youtube.com/*
 // @include        http*://youtube.com/*
 // @grant          none
-// @downloadURL      https://github.com/johnakki/youtube-always-dark/new/master/user.js
+// @downloadURL      https://github.com/johnakki/youtube-always-dark/blob/master/user.js
 // ==/UserScript==
 
 (function() {
