@@ -7,8 +7,7 @@
 // @include        http*://www.youtube.com/*
 // @include        http*://youtube.com/*
 // @grant          none
-// @license        GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
-// @namespace      https://github.com/johnakki/youtube-always-dark/new/master/user.js
+// @downloadURL      https://github.com/johnakki/youtube-always-dark/new/master/user.js
 // ==/UserScript==
 
 (function() {
@@ -48,6 +47,5 @@
         this.turnDarkTheme(true);
         localStorage[STORAGE_NAME] = "1";
     }.bind(scope);
-
     dispatcher();
 })();
